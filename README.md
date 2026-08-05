@@ -1,8 +1,8 @@
 ### Hi there! I'm Mohamed Ali Khan 👋
 
-I'm a **Senior .NET Developer** with 13+ years of experience designing, developing, and supporting enterprise web and client/server applications. I specialize in building secure, scalable systems with the Microsoft technology stack and enjoy leading technical design, mentoring developers, and solving complex production challenges.
+I'm a **Senior Software Engineer** with 14+ years of experience designing, developing, and supporting enterprise web and client/server applications. I specialize in secure, scalable full-stack systems built on the Microsoft technology stack and enjoy leading technical design, mentoring developers, and solving complex production challenges.
 
-- 🔭 Currently working at **NCR Atleos** as a Senior .NET Developer
+- 🔭 Currently working at **NCR Atleos** as a Senior Software Engineer
 - 🎓 B.S. in **Engineering** from the University of Mysore
 - 🏗️ Experienced in **clean architecture**, **N-tier systems**, **microservices**, and enterprise integrations
 - ☁️ Building and deploying cloud solutions with **Microsoft Azure**, Docker, Kubernetes, and CI/CD
@@ -51,6 +51,7 @@ I'm a **Senior .NET Developer** with 13+ years of experience designing, developi
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohamed_Ali_Khan-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-ali-khan-09bb841b7/)
 [![GitHub](https://img.shields.io/badge/GitHub-mokhan0867-181717?style=flat&logo=github&logoColor=white)](https://github.com/mokhan0867)
 [![Email](https://img.shields.io/badge/Email-Mokhan0867%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:Mokhan0867@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-(225)%20421--0403-34A853?style=flat&logo=googlevoice&logoColor=white)](tel:+12254210403)
 
 ---
 

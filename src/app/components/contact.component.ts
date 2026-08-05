@@ -13,10 +13,11 @@ import { FadeInDirective } from '../directives/fade-in.directive';
 
         <div class="content" [appFadeIn]="100">
           <p class="lead">
-            Looking for an experienced .NET engineer to lead design, modernize enterprise systems, or strengthen delivery? Let’s connect.
+            Looking for an experienced software engineer to lead design, modernize enterprise systems, or strengthen full-stack delivery? Let’s connect.
           </p>
 
           <a [href]="'mailto:' + email" class="email-link">{{ email }}</a>
+          <a [href]="'tel:' + phoneHref" class="phone-link">{{ phone }}</a>
 
           @if (github || linkedin || instagram) {
           <div class="socials">
@@ -110,6 +111,17 @@ import { FadeInDirective } from '../directives/fade-in.directive';
 
     .email-link:hover { color: #e53935; }
 
+    .phone-link {
+      margin-top: -1rem;
+      color: #707070;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .phone-link:hover { color: #e53935; }
+
     /* ── Socials ── */
     .socials {
       display: flex;
@@ -163,6 +175,8 @@ import { FadeInDirective } from '../directives/fade-in.directive';
 export class ContactComponent {
   name      = personal.name;
   email     = personal.email;
+  phone     = personal.phone;
+  phoneHref = personal.phoneHref;
   github    = personal.github;
   linkedin  = personal.linkedin;
   instagram = personal.instagram;

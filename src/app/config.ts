@@ -1,18 +1,20 @@
 // Centralized portfolio content. Keep profile copy here so every section stays in sync.
 export const personal = {
-  name: 'Mohammed Ali Khan',
+  name: 'Mohamed Ali Khan',
   initials: 'MAK',
-  role: 'Senior .NET Developer',
-  tagline: 'Designing secure, scalable enterprise applications across the Microsoft stack.',
+  role: 'Senior Software Engineer',
+  tagline: 'Engineering secure, scalable enterprise systems from user experience to cloud infrastructure.',
   email: 'Mokhan0867@gmail.com',
-  location: 'Chicago, IL',
-  availability: 'Senior .NET opportunities',
+  phone: '(225) 421-0403',
+  phoneHref: '+12254210403',
+  location: 'Naperville, IL',
+  availability: 'Senior Software Engineer opportunities',
   education: 'B.S. in Engineering, University of Mysore',
   github: 'https://github.com/mokhan0867',
   linkedin: 'https://www.linkedin.com/in/mohammed-ali-khan-09bb841b7/',
   instagram: '',
   bio: [
-    'Senior .NET Developer with 14+ years of experience designing, developing, and supporting enterprise web and client/server applications. My work spans C#, ASP.NET Core, MVC, Web API, Angular, Entity Framework, SQL Server, Azure, microservices, and CI/CD.',
+    'Senior Software Engineer with 14+ years of experience designing, developing, and supporting enterprise web and client/server applications. My work spans C#, ASP.NET Core, MVC, Web API, Angular, Entity Framework, SQL Server, Azure, microservices, and CI/CD.',
     'I build secure, maintainable systems using N-tier and clean architecture, integrate REST and SOAP services, tune database performance, and automate testing and delivery. I also lead technical design and code reviews, mentor developers, and partner with product, QA, architecture, and DevOps teams in Agile environments.',
   ],
   cvPath: 'assets/Resume.pdf',
@@ -31,7 +33,7 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     company: 'NCR Atleos',
-    role: 'Senior .NET Developer',
+    role: 'Senior Software Engineer',
     city: 'Chicago, IL',
     industry: 'FinTech · ATM & Self-Service Banking · Transaction Processing',
     startDate: 'Jul 2021',
@@ -49,7 +51,7 @@ export const experiences: Experience[] = [
   },
   {
     company: 'Hill-Rom, Inc.',
-    role: 'Senior .NET Developer',
+    role: 'Senior Software Engineer',
     city: 'Chicago, IL',
     industry: 'Healthcare Technology · Medical Devices · Connected Care',
     startDate: 'Dec 2018',
@@ -65,7 +67,7 @@ export const experiences: Experience[] = [
   },
   {
     company: 'Cyber Coders',
-    role: 'Senior .NET Developer',
+    role: 'Full Stack Engineer',
     city: 'Austin, TX',
     industry: 'Staffing · Recruiting · Talent Management',
     startDate: 'Jul 2017',
@@ -81,7 +83,7 @@ export const experiences: Experience[] = [
   },
   {
     company: 'T. Rowe Price',
-    role: '.NET Developer',
+    role: 'Senior Backend Developer',
     city: 'Baltimore, MD',
     industry: 'Investment Management · Asset Management · Financial Services',
     startDate: 'Mar 2016',
@@ -97,8 +99,8 @@ export const experiences: Experience[] = [
   },
   {
     company: 'Raytheon Technologies',
-    role: 'Associate .NET Developer',
-    city: 'California, United States',
+    role: 'Associate Full Stack Developer',
+    city: 'San Francisco, CA',
     industry: 'Aerospace · Defense · Mission-Critical Systems',
     startDate: 'May 2013',
     endDate: 'Aug 2015',
@@ -113,8 +115,8 @@ export const experiences: Experience[] = [
   },
   {
     company: 'AAXA',
-    role: 'Software Engineer',
-    city: 'California, United States',
+    role: 'Web Developer',
+    city: 'San Francisco, CA',
     industry: 'Consumer Electronics · Display Technology · Manufacturing',
     startDate: 'Nov 2012',
     endDate: 'Apr 2013',
@@ -140,12 +142,12 @@ export const skillGroups: SkillGroup[] = [
     skills: ['C#', 'VB.NET', 'JavaScript', 'TypeScript', '.NET 6', '.NET Framework', 'ASP.NET Core', 'ASP.NET MVC', 'WCF', 'WPF', 'Angular', 'AngularJS'],
   },
   {
-    category: 'Front End',
-    skills: ['HTML5', 'CSS3', 'Angular Material', 'Bootstrap', 'jQuery', 'AJAX', 'Razor Views', 'Responsive Design', 'Single-Page Applications'],
+    category: 'Frontend Engineering',
+    skills: ['HTML5', 'CSS3', 'Angular Material', 'Bootstrap', 'jQuery', 'AJAX', 'Razor Views', 'XAML', 'Telerik RadControls', 'Responsive Design', 'Single-Page Applications'],
   },
   {
-    category: '.NET & APIs',
-    skills: ['ASP.NET Core Web API', 'REST', 'SOAP', 'XML', 'JSON', 'gRPC', 'Microservices', 'Middleware', 'Dependency Injection', 'EF Core', 'LINQ', 'ADO.NET'],
+    category: 'Backend, APIs & Integration',
+    skills: ['ASP.NET Core Web API', 'REST', 'SOAP', 'XML', 'JSON', 'gRPC', 'Microservices', 'Middleware', 'Dependency Injection', 'EF Core', 'LINQ', 'ADO.NET', 'Message-Based Integration'],
   },
   {
     category: 'Data & Messaging',
@@ -168,11 +170,11 @@ export const skillGroups: SkillGroup[] = [
     skills: ['SSRS', 'Crystal Reports', 'Power BI', 'Tableau', 'Drill-Down Reporting', 'SQL Performance Tuning', 'Data Migration'],
   },
   {
-    category: 'Architecture & Patterns',
-    skills: ['N-tier Architecture', 'Clean Architecture', 'MVC', 'MVVM', 'SOLID', 'IOC', 'Repository Pattern', 'Design Patterns', 'UML', 'Technical Design'],
+    category: 'Architecture & Performance',
+    skills: ['N-tier Architecture', 'Clean Architecture', 'MVC', 'MVVM', 'SOLID', 'IOC', 'Repository Pattern', 'Design Patterns', 'UML', 'Async Programming', 'Caching', 'Profiling', 'Centralized Logging', 'Distributed Tracing'],
   },
   {
-    category: 'Ways of Working',
+    category: 'Delivery & Leadership',
     skills: ['Agile / Scrum', 'Requirements Analysis', 'Sprint Planning', 'Technical Leadership', 'Mentoring', 'Troubleshooting', 'Root-Cause Analysis', 'Production Support'],
   },
 ];

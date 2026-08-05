@@ -31,6 +31,10 @@ import { FadeInDirective } from '../directives/fade-in.directive';
                 <dd><a [href]="'mailto:' + email">{{ email }}</a></dd>
               </div>
               <div class="fact">
+                <dt>Phone</dt>
+                <dd><a [href]="'tel:' + phoneHref">{{ phone }}</a></dd>
+              </div>
+              <div class="fact">
                 <dt>Education</dt>
                 <dd>{{ education }}</dd>
               </div>
@@ -128,5 +132,7 @@ export class AboutComponent {
   location     = personal.location;
   availability = personal.availability;
   email        = personal.email;
+  phone        = personal.phone;
+  phoneHref    = personal.phoneHref;
   education    = personal.education;
 }
