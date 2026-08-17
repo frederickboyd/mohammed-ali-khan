@@ -34,6 +34,14 @@ import { FadeInDirective } from '../directives/fade-in.directive';
                     <li>{{ highlight }}</li>
                   }
                 </ul>
+                <div class="stack" aria-label="Core skills used in this role">
+                  <span class="stack-label">Core stack</span>
+                  <div class="skill-list">
+                    @for (skill of exp.skills; track skill) {
+                      <span class="skill">{{ skill }}</span>
+                    }
+                  </div>
+                </div>
               </div>
             </div>
           }
@@ -183,6 +191,38 @@ import { FadeInDirective } from '../directives/fade-in.directive';
     }
 
     .highlights li::marker { color: #e53935; }
+
+    .stack {
+      margin-top: 1.35rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid #202020;
+    }
+
+    .stack-label {
+      display: block;
+      margin-bottom: 0.75rem;
+      color: #e53935;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+    }
+
+    .skill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .skill {
+      padding: 0.25rem 0.6rem;
+      border: 1px solid #252525;
+      border-radius: 999px;
+      color: #858585;
+      background: #171717;
+      font-size: 0.72rem;
+      line-height: 1.3;
+    }
 
     @media (max-width: 700px) {
       .card-top {

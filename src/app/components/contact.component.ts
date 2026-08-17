@@ -13,7 +13,7 @@ import { FadeInDirective } from '../directives/fade-in.directive';
 
         <div class="content" [appFadeIn]="100">
           <p class="lead">
-            Looking for an experienced software engineer to lead design, modernize enterprise systems, or strengthen full-stack delivery? Let’s connect.
+            Looking for a senior engineer to build AI-enabled products, modernize enterprise platforms, or lead secure full-stack and cloud delivery? Let’s connect.
           </p>
 
           <a [href]="'mailto:' + email" class="email-link">{{ email }}</a>

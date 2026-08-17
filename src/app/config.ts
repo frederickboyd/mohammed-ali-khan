@@ -2,20 +2,21 @@
 export const personal = {
   name: 'Mohamed Ali Khan',
   initials: 'MAK',
-  role: 'Senior Software Engineer',
-  tagline: 'Engineering secure, scalable enterprise systems from user experience to cloud infrastructure.',
+  role: 'Senior Software Engineer | AI, Full Stack & Cloud',
+  tagline: 'Building intelligent, secure, cloud-native systems from user experience to distributed infrastructure.',
   email: 'Mokhan0867@gmail.com',
   phone: '(225) 421-0403',
   phoneHref: '+12254210403',
   location: 'Naperville, IL',
-  availability: 'Senior Software Engineer opportunities',
+  availability: 'Senior, full-stack, cloud, and AI-enabled software engineering roles',
   education: 'B.S. in Engineering, University of Mysore',
   github: 'https://github.com/mokhan0867',
   linkedin: 'https://www.linkedin.com/in/mohammed-ali-khan-09bb841b7/',
   instagram: '',
   bio: [
-    'Senior Software Engineer with 14+ years of experience designing, developing, and supporting enterprise web and client/server applications. My work spans C#, ASP.NET Core, MVC, Web API, Angular, Entity Framework, SQL Server, Azure, microservices, and CI/CD.',
-    'I build secure, maintainable systems using N-tier and clean architecture, integrate REST and SOAP services, tune database performance, and automate testing and delivery. I also lead technical design and code reviews, mentor developers, and partner with product, QA, architecture, and DevOps teams in Agile environments.',
+    'Senior Software Engineer with 14+ years of experience designing, building, scaling, and supporting full-stack, cloud-native, and distributed applications. My background spans modern frontend engineering, backend services, APIs, relational and NoSQL data platforms, enterprise integration, and production delivery.',
+    'My technical focus includes AI-enabled application development with Python, Generative AI, Large Language Models, Retrieval-Augmented Generation, prompt engineering, and intelligent agents—combined with React, Angular, TypeScript, JavaScript, C#, .NET, ASP.NET Core, Node.js, REST, GraphQL, gRPC, and microservices.',
+    'I own solutions end to end, from architecture, secure APIs, data models, and event-driven services to cloud infrastructure, CI/CD, observability, automated testing, performance, and reliability. I also lead technical design and code reviews, mentor engineers, and partner across product, architecture, QA, DevOps, and support teams.',
   ],
   cvPath: 'assets/Resume.pdf',
 };
@@ -28,6 +29,7 @@ export interface Experience {
   startDate: string;
   endDate: string;
   highlights: string[];
+  skills: string[];
 }
 
 export const experiences: Experience[] = [
@@ -48,6 +50,7 @@ export const experiences: Experience[] = [
       'Expanded regression coverage with xUnit, NUnit, Moq, and Postman and improved performance through async programming, caching, profiling, centralized logging, and distributed tracing.',
       'Led technical design and code reviews, mentored developers, collaborated across product, architecture, QA, DevOps, and support, and drove root-cause analysis for production incidents.',
     ],
+    skills: ['Artificial Intelligence (AI)', 'Generative AI', 'Machine Learning', 'Python', 'C#', 'TypeScript', 'Angular', '.NET', 'ASP.NET Core', 'REST APIs', 'gRPC', 'Microservices', 'Distributed Systems', 'Event-Driven Architecture', 'Microsoft Azure', 'Docker', 'Kubernetes', 'CI/CD', 'OAuth 2.0', 'Observability'],
   },
   {
     company: 'Hill-Rom, Inc.',
@@ -64,6 +67,7 @@ export const experiences: Experience[] = [
       'Created UML diagrams and technical design documents, built NUnit and Moq tests, reviewed code, and promoted engineering standards.',
       'Collaborated with analysts, architects, developers, managers, users, and support teams while providing maintenance, troubleshooting, deployment, and production support.',
     ],
+    skills: ['C#', 'JavaScript', 'TypeScript', 'Angular', 'AngularJS', 'WPF Development', '.NET', 'ASP.NET Web API', 'WCF', 'REST APIs', 'Microservices', 'Service-Oriented Architecture (SOA)', 'N-tier Architecture', 'Entity Framework Core', 'Microsoft SQL Server', 'Oracle Database', 'PostgreSQL', 'Microsoft Azure', 'Unit Testing', 'System Design'],
   },
   {
     company: 'Cyber Coders',
@@ -80,6 +84,7 @@ export const experiences: Experience[] = [
       'Designed SQL Server stored procedures, functions, views, triggers, indexes, and data access using T-SQL and PL/SQL.',
       'Implemented form- and role-based authentication and state management, resolved production issues, and supported Azure releases and CI/CD delivery.',
     ],
+    skills: ['Full-Stack Development', 'Front-End Development', 'React.js', 'Angular', 'AngularJS', 'JavaScript', 'TypeScript', 'CSS3', 'ASP.NET MVC', 'REST APIs', 'SOAP', 'API Integration', 'Database Design', 'Microsoft SQL Server', 'Application Security', 'OAuth 2.0', 'JSON Web Token (JWT)', 'Role-Based Access Control (RBAC)', 'Automated Testing', 'Agile Methodologies'],
   },
   {
     company: 'T. Rowe Price',
@@ -96,6 +101,7 @@ export const experiences: Experience[] = [
       'Built drill-down and drill-through SSRS reports and data-rich interfaces with Telerik RadControls.',
       'Used TFS for source control, work tracking, defects, and release coordination and created NUnit functional and performance tests.',
     ],
+    skills: ['Back-End Web Development', 'C#', '.NET', 'ASP.NET MVC', 'ASP.NET Web API', 'ASP.NET Web Forms', 'WCF', 'REST APIs', 'Web Services', 'SOAP', 'API Design', 'Software Architecture', 'System Design', 'ADO.NET', 'LINQ', 'Microsoft SQL Server', 'Database Optimization', 'SSIS', 'SSRS', 'NUnit'],
   },
   {
     company: 'Raytheon Technologies',
@@ -112,6 +118,7 @@ export const experiences: Experience[] = [
       'Built master pages, managed ASP.NET client- and server-side state, created builds, and promoted releases using TFS and Visual SourceSafe.',
       'Performed unit, integration, stress, regression, and database testing throughout the SDLC.',
     ],
+    skills: ['Software Engineering', 'Full-Stack Development', 'Front-End Development', 'Back-End Web Development', 'C#', 'JavaScript', 'SQL', '.NET', 'ASP.NET Web Forms', 'REST APIs', 'API Integration', 'N-tier Architecture', 'System Design', 'ADO.NET', 'LINQ', 'Database Design', 'Data Migration', 'Integration Testing', 'Automated Testing', 'Software Development Life Cycle (SDLC)'],
   },
   {
     company: 'AAXA',
@@ -128,6 +135,7 @@ export const experiences: Experience[] = [
       'Led interface maintenance and support under configuration-management and SDLC processes.',
       'Produced requirements, analysis, design, technical documentation, and Microsoft Project schedules for large initiatives.',
     ],
+    skills: ['Software Engineering', 'Front-End Development', 'C#', 'JavaScript', 'SQL', '.NET', 'HTML5', 'CSS3', 'REST APIs', 'Web Services', 'SOAP', 'API Integration', 'Service-Oriented Architecture (SOA)', 'N-tier Architecture', 'Oracle Database', 'Database Design', 'Data Modeling', 'ETL', 'Enterprise Application Integration', 'Requirements Analysis'],
   },
 ];
 
@@ -138,43 +146,39 @@ export interface SkillGroup {
 
 export const skillGroups: SkillGroup[] = [
   {
-    category: 'Languages & Frameworks',
-    skills: ['C#', 'VB.NET', 'JavaScript', 'TypeScript', '.NET 6', '.NET Framework', 'ASP.NET Core', 'ASP.NET MVC', 'WCF', 'WPF', 'Angular', 'AngularJS'],
+    category: 'AI & Intelligent Systems',
+    skills: ['Artificial Intelligence (AI)', 'Machine Learning', 'Generative AI', 'Large Language Models (LLMs)', 'Retrieval-Augmented Generation (RAG)', 'AI Agents', 'Prompt Engineering', 'Python'],
+  },
+  {
+    category: 'Languages & Full Stack',
+    skills: ['Software Engineering', 'Java', 'Kotlin', 'C#', 'JavaScript', 'TypeScript', 'SQL', 'Full-Stack Development', 'Front-End Development', 'Back-End Web Development'],
   },
   {
     category: 'Frontend Engineering',
-    skills: ['HTML5', 'CSS3', 'Angular Material', 'Bootstrap', 'jQuery', 'AJAX', 'Razor Views', 'XAML', 'Telerik RadControls', 'Responsive Design', 'Single-Page Applications'],
+    skills: ['React.js', 'Angular', 'AngularJS', 'HTML5', 'CSS3', 'WPF Development'],
   },
   {
-    category: 'Backend, APIs & Integration',
-    skills: ['ASP.NET Core Web API', 'REST', 'SOAP', 'XML', 'JSON', 'gRPC', 'Microservices', 'Middleware', 'Dependency Injection', 'EF Core', 'LINQ', 'ADO.NET', 'Message-Based Integration'],
+    category: 'Backend & APIs',
+    skills: ['.NET', 'Node.js', 'FastAPI', 'ASP.NET Core', 'ASP.NET MVC', 'ASP.NET Web API', 'ASP.NET Web Forms', 'WCF', 'REST APIs', 'GraphQL', 'gRPC', 'Web Services', 'SOAP', 'API Design', 'API Integration'],
+  },
+  {
+    category: 'Architecture & Integration',
+    skills: ['Microservices', 'Distributed Systems', 'Event-Driven Architecture', 'Service-Oriented Architecture (SOA)', 'N-tier Architecture', 'Software Architecture', 'System Design', 'Object-Oriented Programming', 'Design Patterns', 'SOLID', 'Entity Framework Core', 'Entity Framework', 'ADO.NET', 'LINQ', 'Enterprise Application Integration'],
   },
   {
     category: 'Data & Messaging',
-    skills: ['SQL Server', 'Oracle', 'MySQL', 'T-SQL', 'PL/SQL', 'Stored Procedures', 'Triggers', 'Views', 'Indexes', 'SSIS', 'Azure Service Bus'],
+    skills: ['Microsoft SQL Server', 'Oracle Database', 'PostgreSQL', 'MySQL', 'Redis', 'Database Design', 'Database Optimization', 'Data Modeling', 'Stored Procedures', 'SSIS', 'SSRS', 'Performance Optimization', 'ETL', 'Data Migration', 'Apache Kafka', 'Azure Service Bus'],
   },
   {
-    category: 'Cloud & DevOps',
-    skills: ['Azure App Service', 'Azure Functions', 'Key Vault', 'Azure Storage', 'Application Insights', 'AWS', 'Docker', 'Kubernetes', 'Azure DevOps', 'Git', 'TFS', 'CI/CD'],
+    category: 'Cloud, Platform & DevOps',
+    skills: ['Microsoft Azure', 'Amazon Web Services (AWS)', 'Google Cloud Platform (GCP)', 'Cloud Computing', 'Cloud Architecture', 'Docker', 'Kubernetes', 'Terraform', 'Azure DevOps', 'CI/CD', 'DevOps', 'Git', 'GitHub', 'Datadog', 'Observability'],
   },
   {
     category: 'Security & Identity',
-    skills: ['OAuth 2.0', 'OpenID Connect', 'JWT', 'RBAC', 'Microsoft Entra ID', 'Secrets Management', 'Secure API Design'],
+    skills: ['OAuth 2.0', 'OpenID Connect (OIDC)', 'JSON Web Token (JWT)', 'Role-Based Access Control (RBAC)', 'Application Security'],
   },
   {
-    category: 'Testing & Quality',
-    skills: ['NUnit', 'xUnit', 'Moq', 'Postman', 'Unit Testing', 'Integration Testing', 'Functional Testing', 'Regression Testing', 'Code Reviews'],
-  },
-  {
-    category: 'Reporting & Analytics',
-    skills: ['SSRS', 'Crystal Reports', 'Power BI', 'Tableau', 'Drill-Down Reporting', 'SQL Performance Tuning', 'Data Migration'],
-  },
-  {
-    category: 'Architecture & Performance',
-    skills: ['N-tier Architecture', 'Clean Architecture', 'MVC', 'MVVM', 'SOLID', 'IOC', 'Repository Pattern', 'Design Patterns', 'UML', 'Async Programming', 'Caching', 'Profiling', 'Centralized Logging', 'Distributed Tracing'],
-  },
-  {
-    category: 'Delivery & Leadership',
-    skills: ['Agile / Scrum', 'Requirements Analysis', 'Sprint Planning', 'Technical Leadership', 'Mentoring', 'Troubleshooting', 'Root-Cause Analysis', 'Production Support'],
+    category: 'Testing & Delivery',
+    skills: ['Unit Testing', 'Integration Testing', 'Automated Testing', 'NUnit', 'xUnit', 'Selenium', 'Agile Methodologies', 'Code Review', 'Requirements Analysis', 'Software Development Life Cycle (SDLC)'],
   },
 ];

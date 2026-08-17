@@ -1,17 +1,25 @@
 ### Hi there! I'm Mohamed Ali Khan 👋
 
-I'm a **Senior Software Engineer** with 14+ years of experience designing, developing, and supporting enterprise web and client/server applications. I specialize in secure, scalable full-stack systems built on the Microsoft technology stack and enjoy leading technical design, mentoring developers, and solving complex production challenges.
+I'm a **Senior Software Engineer focused on AI-enabled full-stack, cloud-native, and distributed systems** with 14+ years of experience designing, building, scaling, and supporting enterprise applications. I work across frontend experiences, backend services, APIs, data platforms, cloud infrastructure, security, delivery, and production reliability.
 
 - 🔭 Currently working at **NCR Atleos** as a Senior Software Engineer
 - 🎓 B.S. in **Engineering** from the University of Mysore
-- 🏗️ Experienced in **clean architecture**, **N-tier systems**, **microservices**, and enterprise integrations
-- ☁️ Building and deploying cloud solutions with **Microsoft Azure**, Docker, Kubernetes, and CI/CD
-- 💬 Ask me about **.NET / C#**, **Angular**, **Azure**, **SQL Server**, secure APIs, and software design patterns
+- 🤖 Focused on **Generative AI**, **LLMs**, **RAG**, prompt engineering, Python, and AI-enabled application development
+- 🏗️ Experienced in **full-stack development**, microservices, distributed systems, event-driven architecture, and enterprise integration
+- ☁️ Building and deploying cloud solutions across **Azure, AWS, and GCP** with Docker, Kubernetes, Terraform, and CI/CD
+- 💬 Ask me about **React, Angular, TypeScript, Python, .NET / C#, Node.js**, secure APIs, databases, and cloud architecture
 - 🤝 Experienced in technical leadership, code reviews, mentoring, Agile delivery, and production support
 
 ---
 
 #### 🛠️ Tech Stack
+
+![AI](https://img.shields.io/badge/Artificial_Intelligence-111827?style=flat)
+![Generative AI](https://img.shields.io/badge/Generative_AI-7C3AED?style=flat)
+![LLMs](https://img.shields.io/badge/LLMs_%26_RAG-8B5CF6?style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat&logo=dotnet&logoColor=white)
@@ -23,8 +31,11 @@ I'm a **Senior Software Engineer** with 14+ years of experience designing, devel
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat&logo=terraform&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat&logo=azuredevops&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
